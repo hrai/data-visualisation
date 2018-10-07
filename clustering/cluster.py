@@ -30,7 +30,7 @@ with open('data.csv') as f:
 
 print(numnodes)
 # use networkx to generate the graph
-network = nx.random_geometric_graph(numnodes, 0.3, pos=positions)
+network = nx.random_geometric_graph(numnodes, 4, pos=positions)
 
 # then get the adjacency matrix (in sparse form)
 matrix = nx.to_scipy_sparse_matrix(network)
