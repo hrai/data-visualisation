@@ -13,10 +13,6 @@ df = pd.read_csv('data.csv')
 # is a tuple containing 2D coordinates
 # positions = {i:(random.random() * 2 - 1, random.random() * 2 - 1) for i in range(numnodes)}
 
-# for i in positions:
-#     print(i)
-#     print(positions[i])
-
 positions= {}
 with open('data.csv') as f:
     for index, line in enumerate(f):
