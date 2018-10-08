@@ -31,7 +31,7 @@ print(G.edges(data=True))
 nx.draw(
 G,
 with_labels=True,
-node_size=1000,
+node_size=500,
 node_color="skyblue",
 arrows=True,
 arrowsize=15,

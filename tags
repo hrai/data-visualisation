@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+G	clustering/mcl-weighted.py	/^    G = nx.read_weighted_edgelist(f,delimiter=',')$/;"	v
+G	clustering/mcl.py	/^    G = nx.read_edgelist(f,delimiter=',')$/;"	v
+G	general/nxvix-graphviz.py	/^G = nx.read_edgelist('data-weight.csv', data=(('weight', int),), create_using=nx.DiGraph(), delimiter=',', nodetype=int, encoding="utf-8")$/;"	v
+G	general/nxvix.py	/^G=nx.from_pandas_edgelist(df, 'from', 'to', ['weight'])$/;"	v
+G	general/vis.py	/^G = nx.karate_club_graph()$/;"	v
+adjustSizes	general/vis.py	/^                          adjustSizes=False,  # Prevent overlap (NOT IMPLEMENTED)$/;"	v
+arrows	general/nxvix-graphviz.py	/^arrows=True,$/;"	v
+arrows	general/nxvix.py	/^arrows=True,$/;"	v
+arrowsize	general/nxvix-graphviz.py	/^arrowsize=15,$/;"	v
+arrowsize	general/nxvix.py	/^arrowsize=15,$/;"	v
+barnesHutOptimize	general/vis.py	/^                          barnesHutOptimize=True,$/;"	v
+barnesHutTheta	general/vis.py	/^                          barnesHutTheta=1.2,$/;"	v
+clusters	clustering/mcl-weighted.py	/^clusters = mc.get_clusters(result)$/;"	v
+clusters	clustering/mcl.py	/^clusters = mc.get_clusters(result)$/;"	v
+df	general/nxvix-graphviz.py	/^df = pd.read_csv('data.csv')$/;"	v
+df	general/nxvix.py	/^df = pd.read_csv('data-weight.csv')$/;"	v
+edgeWeightInfluence	general/vis.py	/^                          edgeWeightInfluence=1.0,$/;"	v
+forceatlas2	general/vis.py	/^forceatlas2 = ForceAtlas2($/;"	v
+gravity	general/vis.py	/^                          gravity=1.0,$/;"	v
+jitterTolerance	general/vis.py	/^                          jitterTolerance=1.0,  # Tolerance$/;"	v
+linLogMode	general/vis.py	/^                          linLogMode=False,  # NOT IMPLEMENTED$/;"	v
+matrix	clustering/mcl-weighted.py	/^matrix = nx.to_scipy_sparse_matrix(G, weight='weight')$/;"	v
+matrix	clustering/mcl.py	/^matrix = nx.to_scipy_sparse_matrix(G)$/;"	v
+multiThreaded	general/vis.py	/^                          multiThreaded=False,  # NOT IMPLEMENTED$/;"	v
+node_color	general/nxvix-graphviz.py	/^node_color="skyblue",$/;"	v
+node_color	general/nxvix.py	/^node_color="skyblue",$/;"	v
+node_size	general/nxvix-graphviz.py	/^node_size=1000,$/;"	v
+node_size	general/nxvix.py	/^node_size=500,$/;"	v
+numnodes	clustering/mcl-weighted.py	/^numnodes = 45$/;"	v
+numnodes	clustering/mcl.py	/^numnodes = 45$/;"	v
+numnodes	clustering/test.py	/^numnodes = 0$/;"	v
+outboundAttractionDistribution	general/vis.py	/^                          outboundAttractionDistribution=False,  # Dissuade hubs$/;"	v
+pos	general/nxvix-graphviz.py	/^pos=nx.nx_agraph.graphviz_layout(G, prog='dot', args='-Goverlap=false'))$/;"	v
+pos	general/nxvix.py	/^pos=nx.spring_layout(G))$/;"	v
+positions	clustering/test.py	/^positions= {}$/;"	v
+positions	general/vis.py	/^positions = forceatlas2.forceatlas2_networkx_layout(G, pos=None, iterations=2000)$/;"	v
+result	clustering/mcl-weighted.py	/^result = mc.run_mcl(matrix)  $/;"	v
+result	clustering/mcl.py	/^result = mc.run_mcl(matrix, inflation=4)$/;"	v
+scalingRatio	general/vis.py	/^                          scalingRatio=2.0,$/;"	v
+strongGravityMode	general/vis.py	/^                          strongGravityMode=False,$/;"	v
+verbose	general/vis.py	/^                          verbose=True)$/;"	v
+with_labels	general/nxvix-graphviz.py	/^with_labels=True,$/;"	v
+with_labels	general/nxvix.py	/^with_labels=True,$/;"	v
