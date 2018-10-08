@@ -19,4 +19,7 @@ clusters = mc.get_clusters(result)
 
 mc.draw_graph(matrix, clusters,  node_size=50, with_labels=False, edge_color="silver")
 
+
+plt.title("Weighted Markov Clustering Algorithm")
+
 plt.show()
