@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
  
 # Build a dataframe with your connections
 df = pd.read_csv('data-weight.csv')
-df
  
 # Build your graph
 G=nx.from_pandas_edgelist(df, 'from', 'to', ['weight'])
